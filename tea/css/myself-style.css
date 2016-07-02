@@ -1,0 +1,51 @@
+
+*{margin: 0px;padding: 0px;font-family: "宋体",Arial}
+a{text-decoration: none;}
+a img{border:0px;}
+body{overflow-x:hidden;}
+li{list-style: none;}
+.top{background-color: #543b36;width: 100%;height: 35px;line-height: 35px;position: relative;}
+.top2{position: absolute;font-size:12px;color: #fff;padding-left: 15px;width: 415px;height: 35px;}
+.qq{float: right;padding-top: 5px;}
+.top2 a{color: #fff}
+.top3{float: right;}
+
+.second{width: 1000px;height: 112px;position: relative;margin: 0 auto;}
+.logo{float: left;width: 255px;height: 112px;}
+.sousuo{float: right;width: 310px;height:24px;margin-top: 38px;overflow: hidden;}
+.menu{	float: left;width:745px; background-color:#553e38;height: 39px;margin-top: 11px; position:relative;}
+.menu li{float: left;width: 102px;height: 39px;line-height: 39px;overflow: hidden;background-image:url(../images/menu2.png);background-repeat: no-repeat;
+          background-position:right top;text-align: center; }  /*样式针对于每一个li标签*/
+.menu li a {color:#fff; font-size:15px; font-family:"微软雅黑";}
+#menusou{ width:32px; height:39px; background-color:#fff;}
+.menu span{ display:block; width:100%; height:39px; background-color:#553e38; position: absolute;left: 745px;top: 0px;}   /*这里关于span不太懂，position*/
+
+.banner{ position:relative; width: 100%; height:250px;background-color: #FFcccc;}  /*js相关样式，轮播图，不懂*/
+.menu2{ width:100%; height:10px; background-image:url(../images/zmenu7.png); background-repeat:repeat-x; background-position:0 0; }
+.main{ width:1000px; margin:0 auto; padding-top:39px;}
+.aleft{ width:221px;background-image:url(../images/bg3.png);background-repeat:repeat-y;float: left;background-position: 0 0;}
+.alul{ width:169px; margin:0 auto;padding-bottom:30px; border-bottom:#e8e7e3 1px solid;}
+.alul li{ background-image:url(../images/menuu.png); background-repeat:no-repeat;background-position: 0 0;width: 115px;height: 24px;padding-top: 10px;padding-left: 54px;}
+.alul li a{ color:#333; font-weight:bold; font-size:14px;}
+.alul li a:hover{ color:#9e795a;}
+
+.contact{ width:183px; margin:0 auto;padding-top: 35px;}
+.contact p{ color:#52352d; font-size:13px; line-height:28px;}
+
+.aright{float: left;width: 734px;margin-left: 44px;}
+.arightbt{ height:25px; width:734px; background-image:url(../images/bt.png); background-position:0 0; background-repeat:no-repeat;}
+.arightbt h3{ color:#52352d; font-size:18px; font-family:"微软雅黑", Arial; font-weight:normal; padding-left:74px;}
+.fbbt{ width:669px; }
+.fbbt li{ float:left; border:1px dashed #a46e39; background-color:#fde4cc; height:25px; line-height:25px; overflow:hidden;margin-right: 5px;}
+
+.fenye{ float:right; padding-right:18px; width:700px; text-align:right; clear:both; margin-top:20px;}
+.fenye a{ padding:6px 8px 6px 8px; border:#d3ceb8 1px solid; font-size:13px; color:#987e18}
+.fenye a:hover{ background-color:#e4dbc8;}
+
+.foot{ height:153px; background-image:url(../images/foot.png); background-position:0 0; background-repeat:repeat-x; width:100%; margin-top:50px;}
+
+.foot2{ width:1000px; margin:0 auto;} 
+.foot2left{ float:left; width:259px; height:153px;}
+.foot2right{ width:490px; padding-left:215px; padding-top:46px; float:left; font-size:13px; color:#666;}
+.foot2right a{ color:#6e4e34;}
+
